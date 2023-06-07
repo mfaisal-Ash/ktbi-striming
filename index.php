@@ -17,19 +17,12 @@
 </head>
 
 <body>
-  <div class="container mx-auto flex flex-col items-center justify-center">
+  <div class="container mx-auto items-center justify-center">
   <header class="header">
     <h1>Pencarian Kata Bahasa Indonesia</h1>
     <p>Menggunakan algoritma string matching PHP dan MySQL</p>
-  
-
-  <nav class="navbar">
-    <ul>
-      <li class="utama"><a href="/"></a></li>
-    </ul>
-    
-  </nav>
   </header>
+
   <main class="main">
 
     <div class="content">
