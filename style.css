@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1024px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #dbae34;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    background-color: #333;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li.utama {
+    display: inline-table;
+  }
+  
+  .navbar ul li :hover {
+    background-color: #004370;
+  }
+  
+  .navbar ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #fff;
+  }
+  
+  .utama ul {
+    display: none;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .utama:hover ul {
+    display: block;
+  }
+  
+  .utama ul li {
+    display: block;
+    background-color: #004370;
+    width: 140px;
+  }
+  
+  .main {
+    display: block;
+    border-left: 1px solid #004ea7;
+    border-right: 1px solid #004ea7;
+    border-bottom: 1px solid #004ea7;
+    min-height:400px;
+  }
+  
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .footer {
+    padding: 1px;
+    text-align: center;
+    background: #ddd;
+    border-left: 1px solid #004ea7;
+    border-right: 1px solid #004ea7;
+    border-bottom: 1px solid #004ea7;
+    font-size: 12px;
+  }
+  
+  #form form input[type=text],
+  #form form textarea{
+      padding:4px;
+      width: 50%;
+    text-align: center;
+    margin-bottom:20px;
+  }
