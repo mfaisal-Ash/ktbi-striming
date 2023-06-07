@@ -14,32 +14,16 @@
   .header {
     padding: 60px;
     text-align: center;
-    background: orange;
+    background: #0B3C42;
     color: white;
     size: center;
   }
   
-  .utama ul {
-    display: none;
-    position: absolute;
-    z-index: 2;
-  }
-  
-  .utama:hover ul {
-    display: block;
-  }
-  
-  .utama ul li {
-    display: block;
-    background-color: #004370;
-    width: 140px;
-  }
-  
   .main {
     display: block;
-    border-left: 1px solid #004ea7;
-    border-right: 1px solid #004ea7;
-    border-bottom: 1px solid #004ea7;
+    border-left: auto solid #004ea7;
+    border-right: auto solid #004ea7;
+    border-bottom: auto solid #004ea7;
     min-height:400px;
   }
   

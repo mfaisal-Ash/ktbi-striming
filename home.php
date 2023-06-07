@@ -22,7 +22,7 @@
       $teksAsli = $_POST['kata'];
       $striming = striming($teksAsli);
     ?> 
-
+ <div class="container mx-auto items-center justify-center">
     <div class="w-50 max-w-screen-lg sm:w-80 bg-white rounded-lg shadow-md p-8">
       <h2 class="text-xl font-bold mb-4">Hasil Pencarian</h2>
       <div class="mb-4">
@@ -34,6 +34,7 @@
         <p><?php echo $striming; ?></p>
       </div>
     </div>
+  </div>
 
     <?php } ?>
 
